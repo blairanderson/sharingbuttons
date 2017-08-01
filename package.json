@@ -42,10 +42,7 @@
     "build": "rm -rf build | webpack --config webpack.build.config.js --progress --colors -p"
   },
   "browserify": {
-    "transform": [
-      "reactify",
-      "envify"
-    ]
+    "transform": ["reactify", "envify"]
   },
   "repository": {
     "type": "git",

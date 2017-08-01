@@ -1,47 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" manifest="manifest.appcache" itemscope itemtype="http://schema.org/Product">
-	<head>
-		<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Social Media Sharing Buttons. No JavaScript. No tracking. Super fast and easy.</title>
-		<meta name="description" content="Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking." />
-		<meta name="author" content="Max Stoiber" />
-		<link rel="apple-touch-icon" href="favicon.png">
 
-		<!-- Google+ -->
-		<meta itemprop="name" content="Sharingbuttons.io">
-		<meta itemprop="description" content="Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.">
-		<meta itemprop="image" content="/img/social_media.png">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Social Media Sharing Buttons. No JavaScript. No tracking. Super fast and easy.</title>
+  <meta name="description" content="Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking." />
+  <meta name="author" content="Max Stoiber" />
+  <link rel="apple-touch-icon" href="favicon.png">
+  <meta itemprop="name" content="Sharingbuttons.io">
+  <meta itemprop="description" content="Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.">
+  <meta itemprop="image" content="/img/social_media.png">
+  <meta property="og:title" content="sharingbuttons.io | Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.">
+  <meta property="og:description" content="Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.">
+  <meta property="og:image" content="/img/social_media.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@mxstbr">
+  <meta name="twitter:creator" content="@mxstbr">
+  <meta name="twitter:url" content="http://sharingbuttons.io">
+  <meta name="twitter:title" content="sharingbuttons.io | Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.">
+  <meta name="twitter:description" content="Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.">
+  <meta name="twitter:image" content="/img/social_media.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
 
-		<!-- Facebook -->
-		<meta property="og:title" content="sharingbuttons.io | Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.">
-		<meta property="og:description" content="Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.">
-		<meta property="og:image" content="/img/social_media.png">
+<body>
+  <div class="spinner-wrapper">
+    <h1 class="loading__title">Sharingbuttons</h1>
+    <h2 class="loading__tagline">Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.</h2>
+    <div class="spinner">
+      <div class="rect1"></div>
+      <div class="rect2"></div>
+      <div class="rect3"></div>
+      <div class="rect4"></div>
+      <div class="rect5"></div>
+    </div>
+  </div>
+  <div id="app"></div>
+  <script src="js/bundle.js"></script>
+</body>
 
-		<!-- Twitter -->
-		<meta name="twitter:card" content="summary">
-		<meta name="twitter:site" content="@mxstbr">
-		<meta name="twitter:creator" content="@mxstbr">
-		<meta name="twitter:url" content="http://sharingbuttons.io">
-		<meta name="twitter:title" content="sharingbuttons.io | Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.">
-		<meta name="twitter:description" content="Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.">
-		<meta name="twitter:image" content="/img/social_media.png">
-
-		<link rel="stylesheet" href="css/app.css">
-	</head>
-	<body>
-		<div class="spinner-wrapper">
-			<h1 class="loading__title">Sharingbuttons</h1>
-			<h2 class="loading__tagline">Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.</h2>
-			<div class="spinner">
-			  <div class="rect1"></div>
-			  <div class="rect2"></div>
-			  <div class="rect3"></div>
-			  <div class="rect4"></div>
-			  <div class="rect5"></div>
-			</div>
-		</div>
-		<div id="app"></div>
-		<script src="js/bundle.js"></script>
-	</body>
 </html>

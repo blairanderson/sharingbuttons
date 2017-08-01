@@ -12,17 +12,21 @@ module.exports = function(options) {
     entry = [
       path.resolve(__dirname, 'js/app.js') // Start with js/app.js...
     ];
+
     cssLoaders = ['file-loader?name=[path][name].[ext]', 'postcss-loader'];
     // Plugins
     plugins = [// Plugins for Webpack
       new webpack.optimize.UglifyJsPlugin({ // Optimize the JavaScript...
+        debug: true,
         compress: {
           warnings: false // ...but do not show warnings in the console (there is a lot of them)
         },
         wrap: false
       }),
       new HtmlWebpackPlugin({
+        debug: true,
         template: 'index.html', // Move the index.html file...
+        filename: 'index.html',
         minify: { // Minifying it while it is parsed using the following, self–explanatory options
           removeComments: true,
           collapseWhitespace: true,
@@ -35,8 +39,7 @@ module.exports = function(options) {
           minifyCSS: true,
           minifyURLs: true
         }
-      }),
-      new AppCachePlugin()
+      })
     ];
 
   // If app is in development
@@ -57,9 +60,10 @@ module.exports = function(options) {
   return {
     entry: entry,
     output: { // Compile into js/build.js
-      path: path.resolve(__dirname, 'build'),
+      path: './build',
       filename: "js/bundle.js"
     },
+    debug: true,
     module: {
       loaders: [{
           test: /\.js$/, // Transform all .js files required somewhere within an entry point...
@@ -99,6 +103,7 @@ module.exports = function(options) {
       ];
     },
     target: "web", // Make web variables accessible to webpack, e.g. window
+    debug: true,
     stats: false, // Don't show stats in the console
     progress: true
   }
