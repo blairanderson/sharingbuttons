@@ -1,5 +1,5 @@
 {
-  "name": "sharingbuttons.io",
+  "name": "SharingButtons",
   "version": "1.1.0",
   "description": "Super fast and easy Social Media Sharing Buttons. No JavaScript. No tracking.",
   "main": "js/app.js",
@@ -39,15 +39,15 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "rm -rf build | webpack --config webpack.build.config.js --progress --colors -p"
+    "build": "rm -rf docs | webpack --config webpack.build.config.js --progress --colors -p"
   },
   "browserify": {
     "transform": ["reactify", "envify"]
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mstoiber/sharing.git"
+    "url": "git://github.com/blairanderson/sharingbuttons.git"
   },
-  "author": "Max Stoiber",
+  "authors": ["Max Stoiber", "Blair Anderson"],
   "license": "MIT"
 }
