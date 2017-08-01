@@ -1,4 +1,6 @@
-# [`sharingbuttons.io`](http://sharingbuttons.io) <a href="http://thinkmill.com.au"><img alt="Supported by Thinkmill" src="https://thinkmill.github.io/badge/heart.svg" /></a>
+**The canonical SharingButtons.io was down for quite a while. this is a reboot.**
+
+# [ShareButtons](https://www.blairanderson.co/sharingbuttons/) ~~[`sharingbuttons.io`](http://sharingbuttons.io)~~
 
 A web app to quickly generate social sharing buttons that do not track the user.
 
@@ -54,13 +56,12 @@ The app is split up across 6 components, all found in `js/components`. The follo
 
 ## Contributing
 
-sharingbuttons.io loves community involvement! Take a look at the [unassigned open issues](https://github.com/mxstbr/sharingbuttons.io/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee), especially the [unassigned open requests for help](https://github.com/mxstbr/sharingbuttons.io/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3A%22help+wanted%22), or open a new issue/make a PR!
-
-<!-- PRs are welcome. Check [the wiki's notes on contributing](https://github.com/mxstbr/sharingbuttons.io/wiki) for details -->
+sharingbuttons.io loves community involvement! Take a look at the [unassigned open issues](https://github.com/blairanderson/sharingbuttons/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee), especially the [unassigned open requests for help](https://github.com/blairanderson/sharingbuttons/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3A%22help+wanted%22), or open a new issue/make a PR!
 
 ## Help
 
-If you need help with anything regarding this app, contact me on [twitter](https://twitter.com/mxstbr) and I will try to help you as quickly as possible.
+~~If you need help with anything regarding this app, contact me on [twitter](https://twitter.com/mxstbr) and I will try to help you as quickly as possible.~~
+Original creator is not touching this anymore its purely in maintence mode. If you have a fix please submit a PR.
 
 ## License
 
