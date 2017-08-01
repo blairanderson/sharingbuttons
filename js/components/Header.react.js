@@ -3,7 +3,9 @@ var Header = React.createClass({
     return (
       <div className="header">
         <div className="header__wrapper">
-          <h1 className="header__title">SharingButtons</h1>
+          <h1 className="header__title">
+            <a href="/sharingbuttons/">SharingButtons</a>
+          </h1>
           <h2 className="header__tagline">
             Super fast and easy Social Media Sharing Buttons. No JavaScript. No
             tracking.
