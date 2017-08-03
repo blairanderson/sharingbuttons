@@ -1,4 +1,4 @@
-**The canonical SharingButtons.io was down for quite a while. this is a reboot.**
+**The canonical SharingButtons.io was down for quite a while. this is a mirror.**
 
 # [ShareButtons](https://www.blairanderson.co/sharingbuttons/) ~~[`sharingbuttons.io`](http://sharingbuttons.io)~~
 
