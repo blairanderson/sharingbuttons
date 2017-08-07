@@ -23,7 +23,7 @@ var App = React.createClass({
         <a href="http://twitter.com/mxstbr" target="_blank">
           <h1 className="logo">&lt;mxstbr/&gt;</h1>
         </a>
-        <a href="https://github.com/mxstbr/sharing" target="_blank">
+        <a href="https://github.com/blairanderson/sharingbuttons" target="_blank">
           <svg
             width="80"
             height="80"
